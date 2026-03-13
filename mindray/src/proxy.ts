@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server';
 // Add the routes you want to be completely public here
 const publicRoutes = ['/login', '/api/auth/signin', '/api/auth/signup', '/api/auth/logout'];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const authToken = request.cookies.get('auth_token')?.value;
   const isPublicRoute = publicRoutes.some(route => request.nextUrl.pathname.startsWith(route));
 
