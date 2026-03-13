@@ -1,0 +1,30 @@
+MindRay - Mental Health Web App
+===============================
+
+This project is a modern mental health web application built with Next.js and Tailwind CSS.
+
+How to Run the Application
+---------------------------
+
+1. Open your terminal or command prompt.
+2. Navigate to the project directory where the app was installed:
+   cd c:\Users\Raja\OneDrive\Desktop\Hack\mindray
+
+3. Start the development server by running:
+   npm run dev
+
+4. Open your web browser (Chrome or Edge recommended for Voice Features).
+5. Go to the following address:
+   http://localhost:3000
+
+Features Available:
+- Dashboard (Home Page)
+- MBTI Personality Test (10 questions)
+- Daily Mood Tracker
+- Text Analysis Journal (AI emotion detection)
+- Voice Emotion Note (Requires microphone access)
+- Guided Box Breathing Exercise
+- Emergency Helplines
+- Psychiatrist Directory & Appointment Booking
+
+Note: The voice feature uses the browser's built-in Speech Recognition API and requires microphone permissions to work.
